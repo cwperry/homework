@@ -1,0 +1,7 @@
+# Default ignored files
+/workspace.xml
+
+#IDE Files - Added by RubyMine
+.idea
+*.iml
+.rakeTasks
