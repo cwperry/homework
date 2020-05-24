@@ -15,4 +15,8 @@ class Student
     @physics_grade = physics_grade
     @average = average
   end
+
+  def name
+    @first_name + ' ' + @last_name
+  end
 end
