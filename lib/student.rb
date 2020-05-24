@@ -20,4 +20,8 @@ class Student
     @first_name + ' ' + @last_name
   end
 
+  def average
+    # code here
+  end
+
 end
