@@ -6,8 +6,11 @@ RSpec.describe Grader do
 
       expect(grader.students.size).to eq(3)
       expect(grader.students[0].name).to eq('Chester Nimitz')
+      expect(grader.students[0].average).to eq(93)
       expect(grader.students[1].name).to eq('Raymond Spruance')
+      expect(grader.students[1].average).to eq(91)
       expect(grader.students[2].name).to eq('Charles Lockwood')
+      expect(grader.students[2].average).to eq(90)
     end
   end
 end
