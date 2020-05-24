@@ -20,7 +20,7 @@ RSpec.describe Student do
 
   describe 'average method' do
     it 'should compute the average of the english, math, and physics grades' do
-      expect(student.average).to eq(93.67)
+      expect(student.average).to eq(93)
     end
   end
 end

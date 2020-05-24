@@ -21,7 +21,8 @@ class Student
   end
 
   def average
-    # code here
+    grades = [@english_grade, @math_grade, @physics_grade]
+    grades.reduce(:+) / grades.size
   end
 
 end
